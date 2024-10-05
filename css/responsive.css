@@ -1,0 +1,345 @@
+@media screen and (max-width:850px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+
+
+    a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    /* loan advantages  */
+    .advantages-box {
+        margin: auto;
+        width: 90%;
+        background-color: var(--back-bg-color);
+        /* padding: 10px; */
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .advantages-icons {
+        background-color: #fff;
+        padding: 0px;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .process-img {
+        width: 100%;
+    }
+
+    .process-img img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .main-heading {
+        position: relative;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+    }
+
+    .loan-department {
+        margin-top: 50px;
+    }
+
+    #btnfirst {
+        margin-top: 20px;
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:670px) {
+
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    /* loan department  */
+
+    .loan-department {
+        /* margin: auto; */
+        margin-top: 20px;
+        width: 98%;
+        margin-left: 0;
+    }
+
+    .department-nav-bar {
+        flex-direction: column;
+        display: block;
+    }
+
+    #dep-link {
+        width: 87%;
+    }
+
+    .department-link {
+        padding: 10px 15px;
+        border-radius: 6px;
+        margin-right: 0px;
+        text-align: center;
+        margin: 10px;
+        width: 87%;
+        border: 1px solid black;
+    }
+
+    .department-link:hover {
+        background-color: var(--back-bg-color);
+        color: #fff;
+    }
+
+    .loan-manager {
+        flex-direction: column;
+    }
+
+    .manager-photo {
+        margin-top: 20px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .loan-manager img {
+        width: 100%;
+    }
+
+    .manager-data {
+        text-align: center;
+        text-align: justify;
+    }
+
+    .manager-btn {
+        width: 100%;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .primary-btn {
+        width: 90%;
+        text-align: center;
+    }
+
+    /* loan process  */
+    .loan-process {
+        margin-top: 1400px;
+    }
+
+    .process-img {
+        width: 90%;
+    }
+
+    .process-img img {
+        width: 100%;
+    }
+
+    /* loan types section  */
+
+
+    .loan-types {
+        width: 80%;
+        margin: auto;
+        background-color: #fff;
+    }
+
+    .loan-type-nav-bar {
+        flex-direction: column;
+        display: block;
+
+
+    }
+
+    .loan-types-link {
+        color: black;
+        padding: 10px 0px;
+        border: 1px solid black;
+        border-radius: 6px;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    #loan-types-btn {
+        width: 100%;
+        background-color: yellow;
+        color: #000;
+        padding: 10px 0px;
+        border-radius: 6px;
+    }
+
+    .loan-types-link {
+        width: 100%;
+    }
+
+    .loan-icons {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon-bar {
+        height: 150px;
+        width: 70%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+
+    /* our story  */
+
+    .customer-heading {
+        text-align: center;
+    }
+
+    .customer-review {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .review {
+        height: 100%;
+        width: 100%;
+        padding: 6px;
+        line-height: 1.5rem;
+        text-align: justify;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    /* our story  */
+    .our-story {
+        flex-direction: column;
+    }
+
+    .our-story-img {
+        width: 100%;
+    }
+
+    .our-story-img img {
+        width: 100%;
+    }
+
+    .our-story-heading h2 {
+        text-align: center;
+    }
+
+    /* footer  */
+
+    .footer-section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .loan-process {
+        margin-top: 1350px;
+    }
+}
+
+@media screen and (max-width:560px) {
+
+    .about-links {
+        flex-direction: column;
+    }
+
+    .about-links span {
+        display: none;
+    }
+
+
+    /* nav bar  */
+    nav {
+        margin-bottom: 20px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .link-nav {
+        text-align: center;
+        flex-direction: column;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .nav-links {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    .loan-process {
+        margin-top: 1150px;
+    }
+}

@@ -1,0 +1,407 @@
+/* link font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font end  */
+
+* {
+    margin: 0;
+
+}
+
+/* color and background color define  */
+
+:root {
+    --back-bg-color: #593b8a;
+    --hover-color: #46326d;
+    --primary-text-color: #4f4f4f;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: #000;
+}
+
+ul,
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* ------------company about  */
+.about {
+    background-color: var(--back-bg-color);
+}
+
+.about-links {
+    justify-content: end;
+    padding-right: 30px;
+
+}
+
+.links {
+    color: white;
+    font-size: 12px !important;
+    padding: 10px 15px;
+}
+
+.links span {
+    margin-left: 4px;
+}
+
+.links:hover {
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+
+/* end  */
+
+
+/* nav bar  */
+.nav-bar {
+    justify-content: space-between;
+}
+
+.nav-links {
+    color: #000;
+    padding-left: 5px;
+
+}
+
+.nav-links:hover {
+    color: var(--hover-color);
+    transition: 0.2s ease-in-out;
+
+}
+
+.apply-button {
+    padding-right: 50px;
+}
+
+.primary-btn {
+    background-color: var(--back-bg-color);
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: #fff;
+
+}
+
+.primary-btn:hover {
+    background-color: #483867;
+    color: rgb(216, 210, 210);
+}
+
+/* end  */
+
+/* main section  */
+.main-img {
+    width: 100%;
+    position: relative;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main-heading {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+.main-heading h2 {
+    color: var(--back-bg-color);
+}
+
+.main-heading h2,
+h3,
+p {
+    margin-top: 8px;
+}
+
+.main-heading p {
+    color: #000 !important;
+}
+
+/* end  */
+
+/* loan department */
+.loan-department {
+    margin-left: 35px;
+    width: 92%;
+    position: absolute;
+    top: 95%;
+    background-color: #fff;
+
+}
+
+.department-nav-bar {
+    margin-top: 20px;
+}
+
+.department-link {
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.department-link:hover {
+    border: 1px solid black;
+}
+
+#dep-link {
+    background-color: var(--back-bg-color);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+
+}
+
+
+.department-link:hover {
+    color: var(--hover-color);
+}
+
+.loan-manager {
+    margin-top: 10px;
+    gap: 20px;
+    background-color: rgb(204, 202, 202);
+
+}
+
+.manager-photo {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.manager-data {
+    color: #4f4f4f;
+}
+
+.manager-btn {
+    margin-top: 30px;
+}
+
+main {
+    margin-bottom: 400px;
+}
+
+
+/* ----------Process------------------- */
+
+.loan-process {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.loan-process span {
+    color: #46326d;
+}
+
+.process-img {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+/* loan types  */
+
+.loan-types {
+    width: 80%;
+    margin: auto;
+    background-color: #46326d;
+}
+
+.loan-types-link {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.loan-types-link:hover {
+    color: #000;
+
+}
+
+#loan-types-btn {
+    background-color: yellow;
+    color: #000;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+/* end  */
+
+.loan-icons {
+
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.icon-bar {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    height: 80px;
+    width: 150px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+
+/* loan-advantages */
+
+.loan-advantages {
+    margin: 40px 0;
+}
+
+.laon-advantages-heading {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.laon-advantages-heading span {
+    color: #483867;
+}
+
+.advantages-box {
+    margin: auto;
+    width: 80%;
+    background-color: var(--back-bg-color);
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.advantages-icons {
+    background-color: #fff;
+    padding: 50px;
+    height: 150px;
+    width: 200px;
+    text-align: left;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.add {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* customer review  */
+.customer {
+    margin: auto;
+    width: 80%;
+}
+
+
+.customer-heading h3 span {
+    color: #483867;
+}
+
+.customer-review {
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review {
+    height: 350px;
+    width: 250px;
+    padding: 6px;
+    line-height: 1.5rem;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+/* our story  */
+
+.our-story {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    gap: 20px;
+}
+
+
+
+.our-story-heading h2 span {
+    color: #593b8a;
+}
+
+
+/* footer  */
+
+
+footer {
+    margin-top: 30px;
+    justify-content: space-around;
+    color: #fff;
+    gap: 20px;
+    height: 300px;
+    background-color: var(--back-bg-color);
+}
+
+.footer-content a {
+    color: #fff;
+    display: block;
+    line-height: 2.2rem;
+    font-size: 12px;
+}
+
+.footer-content a:hover {
+    color: #000;
+
+}
+
+.subfooter {
+    background-color: var(--back-bg-color);
+    color: #fff;
+    text-align: center;
+}
